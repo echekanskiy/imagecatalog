@@ -1,0 +1,77 @@
+{
+    "images": {
+      "base-images": [],
+      "hdf-images": [],
+      "hdp-images": [],
+      "cdh-images": [
+        {
+          "date": "2019-07-25",
+          "description": "ycloud pre-warmed cfm image",
+          "images": {
+            "yarn": {
+              "default": "registry.eng.hortonworks.com/echekanskiy/cfm-warm:2019-07-25"
+            }
+          },
+          "os": "centos7",
+          "os_type": "redhat7",
+          "uuid": "214cd56f-f350-4d9d-a48d-4408a00683f9",
+          "package-versions": {
+            "cm": "7.x.0",
+            "salt": "2017.7.5",
+            "salt-bootstrap": "0.13.0-2018-05-03T07:39:07",
+            "stack": "7.0.0.0"
+          },
+          "stack-details": {
+            "repo": {
+              "stack": {
+                "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/CFM/centos7/1.x/BUILDS/1.1.0.0-34/tars/parcel/",
+                "repoid": "CFM-1.1.0.0",
+                "repository-version": "CFM-1.1.0.0"
+              },
+              "util": null
+            },
+            "version": "7.0.0.0"
+          },
+          "repo": {
+            "redhat7": "http://cloudera-build-us-west-1.vpc.cloudera.com/s3/build/1296423/cm7/7.x.0/redhat7/yum/"
+          },
+          "version": "7.x.0"
+        }
+      ]
+    },
+    "versions": {
+      "cloudbreak": [
+        {
+          "images": [
+            "214cd56f-f350-4d9d-a48d-4408a00683f9"
+          ],
+          "defaults": [
+            "214cd56f-f350-4d9d-a48d-4408a00683f9"
+          ],
+          "versions": [
+            "2.11.0-rc.75",
+            "2.11.0-rc.76",
+            "2.11.0-rc.80",
+            "2.11.0-rc.81",
+            "2.11.0-rc.82",
+            "2.11.0-rc.84",
+            "2.11.0-rc.86",
+            "2.11.0-rc.87",
+            "2.11.0-rc.88",
+            "2.11.0-rc.90",
+            "2.11.0-rc.91",
+            "2.11.0-rc.92",
+            "2.11.0-rc.93",
+            "2.11.0-rc.94",
+            "2.11.0-rc.100",
+            "2.11.0-rc.101",
+            "2.11.0-rc.102",
+            "2.11.0-rc.103",
+            "2.11.0-rc.104",
+            "2.11.0-rc.105",
+            "2.11.0-rc.106"
+          ]
+        }
+      ]
+    }
+  }
